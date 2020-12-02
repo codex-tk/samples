@@ -7,6 +7,6 @@
 
 #include <tnet/tnet.hpp>
 
-TEST_CASE("tnet", "super_great"){
+TEST_CASE("super_great", "tnet"){
     REQUIRE(tnet::super_great() == 32);
 }
